@@ -9,3 +9,5 @@
 参数：
 	--staged：
 		比较 staged 和 last commit
+	--cached:
+		与 staged 相同作用
