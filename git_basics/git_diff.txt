@@ -1,0 +1,11 @@
+作用：
+	what you have changed but not yet staged
+	what you have staged but not commit
+
+格式：
+	git diff:
+		比较 working directory 和 staging area
+
+参数：
+	--staged：
+		比较 staged 和 last commit

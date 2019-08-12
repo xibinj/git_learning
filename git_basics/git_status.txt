@@ -1,2 +1,17 @@
 作用：
 	查看项目文件状态
+
+参数：
+	-s：
+		状态简短形式
+		状态标识：
+			M：
+			??：新文件，未被追踪
+			A：新文件，staging area
+			M：modified file
+			MM：modified -> add -> modified
+
+
+
+
+
