@@ -1,4 +1,10 @@
 作用：
 	staged -> commit
 
+参数：
+	-v：
+		类似于 git diff
+	-m：
+		格式 git commit -m "description"
+		直接输入提交信息
 
