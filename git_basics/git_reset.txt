@@ -1,0 +1,5 @@
+作用：
+
+多种形式：
+	git reset HEAD <file>...：
+		stage -> usntage
