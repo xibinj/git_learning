@@ -1,0 +1,30 @@
+作用：
+	输出修改日志
+
+参数：
+	-p:
+		详细输出每个文件修改内容
+	-数字：
+		输出最近的n条日志
+	-stat:
+		输出简短的统计信息
+	--pretty=**
+		oneline：输出在一行内
+		short:
+		full:
+		fuller:
+		format:
+			参数：
+				%H:commit hash
+				%h:abbreviated commit hash
+				%T:tree hash
+				%t:abbreviated tree hash
+				%an:author name
+				%ae:author email
+				...
+	--since:
+		时间限制，例如 2018-10-14，2.weeks
+	--author:
+		作者
+	--grep：
+		搜索指定字符
