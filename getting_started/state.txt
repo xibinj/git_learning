@@ -1,0 +1,5 @@
+git have three states:
+	modified : you have changed file, but not commit
+	staged : mark a modified file to go into next commit snapshot
+	committed : the data is safely stored in local database
+
