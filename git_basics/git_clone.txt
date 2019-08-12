@@ -1,0 +1,8 @@
+what git clone do?
+	receive a full copy of nearyly all data
+	each file's history is pulled down
+
+format:
+	git clone <url> : 最基础的复制
+	git clone <url> othername
+
