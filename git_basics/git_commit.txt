@@ -7,4 +7,5 @@
 	-m：
 		格式 git commit -m "description"
 		直接输入提交信息
-
+	-a:
+		跳过stage area，将追踪的文件直接commit
