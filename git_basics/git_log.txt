@@ -28,3 +28,7 @@
 		作者
 	--grep：
 		搜索指定字符
+
+特殊：
+	树的形式输出提交日志
+		git log --oneline --decorate --graph --all

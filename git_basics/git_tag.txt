@@ -1,0 +1,26 @@
+分类：
+	轻重量
+	带注解
+
+实现：
+	轻重量：
+		git tag tagName
+	带注解：
+		git tag -a tagName
+	给历史commit加标签：
+		git tag -a tagName commitHash 
+
+显示标签：
+	git show tagName:
+		显示某一个具体标签
+	git tag
+		显示所有标签
+
+推送标签：
+	git push origin <tagName>
+	git push origin --tags : 推送所有标签
+
+删除标签：
+	git tag -d <tagname> : 只删除本地标签，不影响remote
+	git push origin --delete <tagname> : 删除远程标签
+
